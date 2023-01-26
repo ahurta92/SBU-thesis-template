@@ -4,9 +4,9 @@
 
 I am not shocked by the [lack of proper LaTeX templates](https://grad.stonybrook.edu/_data/documents/forms/2020-forms/Dissertation_template-PHD_EW.pdf) for the Ph.D. thesis at Stony Brook graduate school page. 
 
-This template is modified from [the SBU template provided by](https://github.com/urfdvw/SBU-thesis-template), which was modified from [the thesis of Avi Srivastava](https://github.com/k3yavi/thesis). Thank both of them.
+This template is modified from [the SBU template provided by River Wang](https://github.com/urfdvw/SBU-thesis-template), which was modified from [the thesis of Avi Srivastava](https://github.com/k3yavi/thesis). Thank both of them.
 
-I've made some minor changes to the previous version:
+I've made some minor changes to their previous:
 
 1. I've added a preface environment to include a preface page in the frontmatter.
 2. I prefer to use the subfile latex package instead of the standard input package
