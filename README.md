@@ -2,9 +2,15 @@
 
 ## Motivation 
 
-I am shocked by the [lack of proper LaTeX templates](https://grad.stonybrook.edu/_data/documents/forms/2020-forms/Dissertation_template-PHD_EW.pdf) for the Ph.D. thesis at Stony Brook graduate school page. 
+I am not shocked by the [lack of proper LaTeX templates](https://grad.stonybrook.edu/_data/documents/forms/2020-forms/Dissertation_template-PHD_EW.pdf) for the Ph.D. thesis at Stony Brook graduate school page. 
 
-This template is modified from [the thesis of Avi Srivastava](https://github.com/k3yavi/thesis). Thank him.
+This template is modified from [the SBU template provided by](https://github.com/urfdvw/SBU-thesis-template), which was modified from [the thesis of Avi Srivastava](https://github.com/k3yavi/thesis). Thank both of them.
+
+I've made some minor changes to the previous version:
+
+1. I've added a preface environment to include a preface page in the frontmatter.
+2. I prefer to use the subfile latex package instead of the standard input package
+3. I've also added `yourcommands.sty` a standalone file to include custom commands.
 
 ## How to use
 
@@ -55,14 +61,3 @@ This template is modified from [the thesis of Avi Srivastava](https://github.com
         - By running the script, it will generate a `.csv` table showing the countings.
 - [LaTex table generator](https://www.tablesgenerator.com/)
 
-
-## Warnings and Tricks (From the most important to the least)
-- **The ONLY reason that you want to use LaTeX is that there are off-the-shelf templates available such as a conference paper template from the conference website and this thesis template. NEVER, EVER, EVER, start a LaTeX document from scratch!**
-- It is highly recommended that any LaTeX users head to [Overleaf](https://www.overleaf.com/). Avoid using any offline distributions anytime possible.
-- Never define your own command if you don't want to confuse your co-author or yourself-years-later.
-- Use `\begin{align}` instead of `\begin{equation}`. They are basically the same, but `align` will allow you to add additional lines to existing equations whenever needed with ease.
-- When editing equations, put the equations' latex code into multiple lines, with indention.
-    - The rule of thumb is to never let the equation auto wrapped to a new line
-    - Indention rules are flexible since indention is for easier reading, not a part of the syntax.
-        - It is suggested to follow the indention rule of programming languages, such as the `{}` rules of C++.
-- If a paragraph contains many in-line equations, make each equation a new line in the latex code, so that you can relocate them easily by double clicking on the preview.
